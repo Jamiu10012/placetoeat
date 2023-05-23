@@ -1,6 +1,6 @@
 .home-body-container {
   background: url("/images/restaurant.jpg");
-  min-height: 100vh;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -86,7 +86,6 @@
 .recent {
   font-weight: 400;
   font-size: 20px;
-  line-height: 82px;
   color: #c9fce9;
   margin-top: 60px;
 }
@@ -94,8 +93,8 @@
   font-style: italic;
   font-weight: 600;
   font-size: 30px;
-  line-height: 82px;
   color: #c9fce9;
+  margin-top: 20px;
 }
 
 /* Navbar css start */
@@ -127,13 +126,22 @@
   color: #007c55;
   cursor: pointer;
 }
+
 @media only screen and (max-width: 1100px) {
+  .recent {
+    margin-top: 40px;
+  }
   .location-list {
     font-size: 25px;
     line-height: 60px;
   }
   .header {
     padding: 20px 6em;
+  }
+}
+@media only screen and (max-height: 400px) {
+  .home-body-container {
+    height: 160vh;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -246,12 +254,11 @@
 @media only screen and (max-width: 450px) {
   .recent {
     font-size: 12px;
-    line-height: 40px;
-    margin-top: 15em;
+    margin-top: 10em;
+    margin-bottom: -15px;
   }
   .location-list {
     font-size: 10px;
-    line-height: 20px;
   }
   .header {
     padding: 20px 2em;
