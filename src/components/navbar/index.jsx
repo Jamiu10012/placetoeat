@@ -1,10 +1,22 @@
+import { useNavigate } from "react-router";
 const Navbar = ({ className, logo }) => {
+  const navigate = useNavigate();
+  function gotoResponsePage() {
+    navigate("/response");
+  }
+  function gotoHome() {
+    navigate("/");
+  }
   return (
     <div className="navbar-container">
       <div className="header">
-        <div className={logo}>LOGO</div>
+        <div className={logo} onClick={gotoHome}>
+          LOGO
+        </div>
         <div className="nav">
-          <button className={className}>Blog</button>
+          <button className={className} onClick={gotoResponsePage}>
+            Blog
+          </button>
         </div>
       </div>
     </div>
