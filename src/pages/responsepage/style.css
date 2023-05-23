@@ -1,0 +1,225 @@
+.response-container {
+  background: #e3ebe6;
+  width: 100%;
+  padding: 10px 80px;
+}
+.response-headline {
+  font-weight: 700;
+  font-size: 40px;
+  color: #1f394a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.res-col-container {
+  margin-top: 40px;
+}
+.res-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.res-title a {
+  color: #5f71c2;
+}
+.res-address {
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.add-left {
+  font-style: italic;
+}
+.dollar-phone-vegeterian {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.res-dollars {
+  font-weight: 600;
+  font-size: 25px;
+  display: flex;
+}
+.res-dollars .diff {
+  color: #c0bbbb;
+}
+.phone-no {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2c2c;
+  display: flex;
+  gap: 10px;
+}
+.pho-icon {
+  color: #4d0072;
+}
+.three-btnd {
+  display: flex;
+  gap: 10px;
+}
+.each-btn {
+  width: 140px;
+  height: 40px;
+  background: #284c63;
+  border-radius: 65px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.res-body-text {
+  font-weight: 300;
+  font-size: 30px;
+}
+.res-body-text a {
+  text-decoration: none;
+  color: #1d089b;
+}
+@media only screen and (max-width: 1000px) {
+  .res-address {
+    font-size: 25px;
+    margin: 30px 0;
+  }
+  .res-body-text {
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .each-btn {
+    width: 120px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .response-headline {
+    font-size: 30px;
+  }
+  .res-address {
+    font-size: 20px;
+  }
+  .res-body-text {
+    font-size: 23px;
+  }
+  .each-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .res-address {
+    font-size: 18px;
+  }
+  .res-body-text {
+    font-size: 21px;
+  }
+  .three-btnd {
+    flex-direction: column;
+  }
+  .each-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .res-dollars {
+    font-size: 20px;
+  }
+  .phone-no {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .response-container {
+    padding: 10px 20px;
+  }
+  .response-headline {
+    font-size: 25px;
+  }
+  .res-address {
+    font-size: 16px;
+  }
+  .res-body-text {
+    font-size: 18px;
+  }
+
+  .each-btn {
+    font-size: 10px;
+  }
+  .res-dollars {
+    font-size: 20px;
+  }
+  .phone-no {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .res-address {
+    font-size: 13px;
+  }
+  .res-body-text {
+    font-size: 16px;
+  }
+  .res-title {
+    font-size: 25px;
+  }
+  .each-btn {
+    font-size: 10px;
+  }
+  .res-dollars {
+    font-size: 10px;
+  }
+  .phone-no {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .response-headline {
+    font-size: 20px;
+  }
+  .res-address {
+    font-size: 11px;
+  }
+  .res-title {
+    font-size: 20px;
+  }
+  .res-body-text {
+    font-size: 14px;
+  }
+
+  .each-btn {
+    font-size: 9px;
+    width: 80px;
+  }
+  .res-dollars {
+    font-size: 9px;
+  }
+  .phone-no {
+    font-size: 12px;
+    gap: 1px;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .res-address {
+    font-size: 9px;
+  }
+  .res-body-text {
+    font-size: 14px;
+  }
+
+  .each-btn {
+    font-size: 9px;
+    width: 80px;
+  }
+  .res-dollars {
+    font-size: 9px;
+  }
+  .phone-no {
+    font-size: 10px;
+    gap: 1px;
+  }
+}

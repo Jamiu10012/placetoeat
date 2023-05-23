@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="home-body-container">
       <div className="overlay">
-        <Navbar />
+        <Navbar className={"blog-btn"} logo={"logo"} />
         <div className="home-content">
           <div className="headline-text">Find New Places To Eat</div>
           <div className="search-container">
@@ -23,7 +23,10 @@ const Home = () => {
           </div>
           <div className="recent">Recent Searches</div>
           <div className="location-list">
-            Philadelphia, Lagos, Mykonos, South of Spain, Empanadas in San Diego
+            <marquee behavior="scroll" direction="left">
+              Philadelphia, Lagos, Mykonos, South of Spain, Empanadas in San
+              Diego
+            </marquee>
           </div>
         </div>
       </div>

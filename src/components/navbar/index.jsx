@@ -1,10 +1,10 @@
-const Navbar = () => {
+const Navbar = ({ className, logo }) => {
   return (
     <div className="navbar-container">
       <div className="header">
-        <div className="logo">LOGO</div>
+        <div className={logo}>LOGO</div>
         <div className="nav">
-          <button className="blog-btn">Blog</button>
+          <button className={className}>Blog</button>
         </div>
       </div>
     </div>
@@ -12,3 +12,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+// "logo res-logo"
