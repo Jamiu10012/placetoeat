@@ -80,6 +80,31 @@
   text-decoration: none;
   color: #1d089b;
 }
+.share-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 20px;
+}
+.share-text {
+  font-weight: 500;
+  font-size: 18px;
+}
+.share-icons-container {
+  width: 144px;
+  height: 43px;
+  background: #2445ba;
+  border-radius: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socio-icon {
+  color: #fff;
+  font-size: 30px;
+}
 @media only screen and (max-width: 1000px) {
   .res-address {
     font-size: 25px;
@@ -175,6 +200,19 @@
   }
   .phone-no {
     font-size: 15px;
+  }
+  .share-list {
+    gap: 10px;
+  }
+  .share-text {
+    font-size: 16px;
+  }
+  .share-icons-container {
+    width: 100px;
+    height: 35px;
+  }
+  .socio-icon {
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 390px) {
