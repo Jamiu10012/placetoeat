@@ -1,6 +1,6 @@
 .home-body-container {
   background: url("/images/restaurant.jpg");
-  height: 100vh;
+  min-height: 100vh;
   background-position: center;
   background-size: cover;
   position: relative;
