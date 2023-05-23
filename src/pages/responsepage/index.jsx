@@ -12,8 +12,8 @@ const ResponsePage = () => {
       </div>
       <div className="respond-content">
         <ResponseCol />
-        {/* <ResponseCol />
-        <ResponseCol /> */}
+        <ResponseCol />
+        <ResponseCol />
       </div>
       <div className="share-list">
         <div className="share-text">Share your list</div>
