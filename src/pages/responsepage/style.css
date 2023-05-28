@@ -1,16 +1,25 @@
 .response-container {
-  background: #e3ebe6;
+  background: #eaf6ef;
   width: 100%;
   padding: 10px 80px;
 }
 .response-headline {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
   color: #1f394a;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.based {
+  font-weight: 500;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: #1f394a;
 }
 .res-col-container {
   margin-top: 40px;
@@ -18,9 +27,19 @@
 .res-title {
   font-weight: 700;
   font-size: 30px;
+  background: #284c63;
+  width: 200px;
+  margin-left: -80px;
+  height: 40px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .res-title a {
-  color: #5f71c2;
+  color: #fff;
+  text-decoration: none;
 }
 .res-address {
   font-weight: 400;
@@ -32,11 +51,20 @@
 .add-left {
   font-style: italic;
 }
+.add-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.loc-icon {
+  color: #32b768;
+}
 .dollar-phone-vegeterian {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  gap: 10px;
 }
 .res-dollars {
   font-weight: 600;
@@ -51,22 +79,53 @@
   font-size: 20px;
   color: #2e2c2c;
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
 .pho-icon {
   color: #4d0072;
 }
+.head-con {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
 .three-btnd {
   display: flex;
   gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.sec-btnd {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
 }
 .each-btn {
-  width: 140px;
-  height: 40px;
+  width: 100px;
+  height: 30px;
   background: #284c63;
   border-radius: 65px;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green-btn {
+  width: 100px;
+  height: 30px;
+  background: #54b76a;
+  border-radius: 65px;
+  font-weight: 300;
+  font-size: 10px;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -75,10 +134,21 @@
 .res-body-text {
   font-weight: 300;
   font-size: 30px;
+  text-align: justify;
 }
 .res-body-text a {
   text-decoration: none;
   color: #1d089b;
+}
+.mid-dolls {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.phone-web {
+  display: flex;
+  align-items: center;
+  gap: 60px;
 }
 .share-list {
   display: flex;
@@ -92,10 +162,14 @@
   font-weight: 500;
   font-size: 18px;
 }
+.three-text {
+  color: #284c63;
+  font-size: 18px;
+}
 .share-icons-container {
   width: 144px;
   height: 43px;
-  background: #2445ba;
+  background: #284c63;
   border-radius: 65px;
   display: flex;
   justify-content: center;
@@ -120,7 +194,7 @@
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 856px) {
   .response-headline {
     font-size: 30px;
   }
@@ -135,6 +209,9 @@
     height: 30px;
     font-size: 11px;
   }
+  .phone-web {
+    gap: 40px;
+  }
 }
 @media only screen and (max-width: 780px) {
   .res-address {
@@ -143,9 +220,7 @@
   .res-body-text {
     font-size: 21px;
   }
-  .three-btnd {
-    flex-direction: column;
-  }
+
   .each-btn {
     width: 100px;
     height: 30px;
@@ -155,7 +230,13 @@
     font-size: 20px;
   }
   .phone-no {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .response-headline {
+    font-size: 25px;
+  }
+  .three-text {
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -165,8 +246,13 @@
   .response-headline {
     font-size: 25px;
   }
+  .res-title {
+    margin-left: -30px;
+    width: 160px;
+    height: 30px;
+  }
   .res-address {
-    font-size: 16px;
+    font-size: 14px;
   }
   .res-body-text {
     font-size: 18px;
@@ -176,18 +262,30 @@
     font-size: 10px;
   }
   .res-dollars {
-    font-size: 20px;
+    font-size: 14px;
   }
   .phone-no {
-    font-size: 18px;
+    font-size: 14px;
+  }
+  .response-headline {
+    font-size: 23px;
+  }
+  .three-text {
+    font-size: 13px;
   }
 }
 @media only screen and (max-width: 470px) {
   .res-address {
-    font-size: 13px;
+    font-size: 11px;
   }
   .res-body-text {
     font-size: 16px;
+  }
+  .response-headline {
+    font-size: 20px;
+  }
+  .based {
+    font-size: 20px;
   }
   .res-title {
     font-size: 25px;
@@ -199,7 +297,10 @@
     font-size: 11px;
   }
   .phone-no {
-    font-size: 15px;
+    font-size: 10px;
+  }
+  .three-text {
+    font-size: 10px;
   }
   .share-list {
     gap: 10px;
@@ -217,10 +318,13 @@
 }
 @media only screen and (max-width: 390px) {
   .response-headline {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .based {
+    font-size: 17px;
   }
   .res-address {
-    font-size: 11px;
+    font-size: 9px;
   }
   .res-title {
     font-size: 20px;
@@ -237,18 +341,26 @@
     font-size: 10px;
   }
   .phone-no {
-    font-size: 12px;
-    gap: 1px;
+    font-size: 8px;
+    gap: 3px;
+  }
+  .three-text {
+    font-size: 8px;
   }
 }
 @media only screen and (max-width: 333px) {
   .res-address {
-    font-size: 9px;
+    font-size: 7px;
   }
   .res-body-text {
     font-size: 14px;
   }
-
+  .response-headline {
+    font-size: 12px;
+  }
+  .based {
+    font-size: 13px;
+  }
   .each-btn {
     font-size: 9px;
     width: 80px;
@@ -257,7 +369,9 @@
     font-size: 9px;
   }
   .phone-no {
-    font-size: 10px;
-    gap: 1px;
+    font-size: 7px;
+  }
+  .three-text {
+    font-size: 7px;
   }
 }

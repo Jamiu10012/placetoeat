@@ -11,7 +11,7 @@ const Navbar = ({ className, logo }) => {
     <div className="navbar-container">
       <div className="header">
         <div className={logo} onClick={gotoHome}>
-          LOGO
+          PlaceTo<span className="eat-box">Eat</span>
         </div>
         <div className="nav">
           <button className={className} onClick={gotoResponsePage}>

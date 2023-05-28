@@ -1,7 +1,7 @@
 import Navbar from "../../components/navbar";
 import "./style.css";
 import { useNavigate } from "react-router";
-const Home = () => {
+const Home = ({ input, onInputChange }) => {
   const navigate = useNavigate();
   function gotoResponsePage() {
     navigate("/response");
@@ -11,13 +11,21 @@ const Home = () => {
       <div className="overlay">
         <Navbar className={"blog-btn"} logo={"logo"} />
         <div className="home-content">
-          <div className="headline-text">Find New Places To Eat</div>
-          <div className="search-container">
-            <input type="text" placeholder="Where to?" />
-            <button className="let-eat" onClick={gotoResponsePage}>
-              Let’s eat!
-            </button>
-          </div>
+          <div className="headline-text">Discover New Places To Eat</div>
+          <div className="headline-text2">AI-Powered Restaurant Finder</div>
+          <form action="">
+            <div className="search-container">
+              <input
+                type="text"
+                value={input}
+                onChange={onInputChange}
+                placeholder="Where to?"
+              />
+              <button className="let-eat" onClick={gotoResponsePage}>
+                Let’s eat!
+              </button>
+            </div>
+          </form>
           <div className="filter-main">
             <div className="filter-box">
               <input type="checkbox" className="checkbox" />
