@@ -246,6 +246,7 @@
   .response-headline {
     font-size: 25px;
   }
+
   .res-title {
     margin-left: -30px;
     width: 160px;
@@ -315,10 +316,13 @@
   .socio-icon {
     font-size: 25px;
   }
+  .head-con {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 390px) {
   .response-headline {
-    font-size: 16px;
+    font-size: 18px;
   }
   .based {
     font-size: 17px;
@@ -356,7 +360,7 @@
     font-size: 14px;
   }
   .response-headline {
-    font-size: 12px;
+    font-size: 14px;
   }
   .based {
     font-size: 13px;
