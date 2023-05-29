@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  overflow-y: hidden;
 }
 .overlay {
   position: absolute;
@@ -172,9 +173,22 @@
     padding: 20px 4em;
   }
 }
-@media only screen and (max-height: 400px) {
+@media only screen and (max-height: 440px) {
   .home-body-container {
     height: 160vh;
+  }
+  .search-container {
+    width: 550px;
+    height: 50px;
+  }
+}
+@media only screen and (max-height: 370px) {
+  .home-body-container {
+    height: 170vh;
+  }
+  .search-container {
+    width: 550px;
+    height: 50px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -193,6 +207,7 @@
   }
   .filter-box {
     width: 200px;
+    height: 40px;
   }
   .checkbox {
     width: 25px;
@@ -287,8 +302,8 @@
 @media only screen and (max-width: 450px) {
   .recent {
     font-size: 12px;
-    margin-top: 10em;
-    margin-bottom: -15px;
+    margin-top: 8em;
+    /* margin-bottom: -10px; */
   }
   .location-list {
     font-size: 10px;
@@ -298,14 +313,14 @@
   }
   .search-container {
     width: 90%;
-    height: 65px;
+    height: 55px;
   }
   .let-eat {
     width: 250px;
   }
 
   .home-content {
-    margin-top: 4em;
+    margin-top: 3em;
   }
   .food-pref {
     font-size: 10px;
@@ -358,7 +373,7 @@
     margin-top: 4em;
   }
   .search-container input {
-    padding: 20px 20px;
+    padding: 0px 20px;
   }
 }
 @media only screen and (max-width: 340px) {
